@@ -44,7 +44,8 @@ HTML is used to create the structure of the application such as headings, input 
   <span id="balance">₹0</span>
 </div>
 
-## CSS
+CSS
+
 CSS is used to style the interface and provide a clean layout with proper alignment, colors, and spacing.
 
 .app-box {
@@ -54,17 +55,18 @@ CSS is used to style the interface and provide a clean layout with proper alignm
   border-radius: 12px;
 }
 
-## JavaScript
+JavaScript
+
 JavaScript is used to handle logical operations such as balance updates, validation, and local storage.
 
 let balance = Number(localStorage.getItem("userBalance")) || 1000;
 
-## Data Storage
+Data Storage
 
 The application uses localStorage to store the balance value.
 This ensures that the balance remains the same even after refreshing or reopening the browser.
 
-## How to Run the Project (VS Code)
+How to Run the Project (VS Code)
 
 Open Visual Studio Code.
 
@@ -76,11 +78,11 @@ Run it in a browser (Live Server or directly).
 
 Perform deposit and withdrawal operations.
 
-## Screenshots
+Screenshots
 
 Home Screen showing balance, input field, and transaction buttons.
 
-## Output
+Output
 
 Updated balance after each transaction
 
