@@ -3,34 +3,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mini Banking App</title>
+  <title>Banking Management System</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
   <div class="app-box">
-    <h1 class="heading">Mini Banking App</h1>
+    <h1 class="heading">Banking Management System</h1>
 
     <div class="balance-box">
       Current Balance
-      <span id="balance">₹1000</span>
+      <span id="balance">₹0</span>
     </div>
 
     <div class="input-area">
       <label for="amount">Enter Amount</label>
-      <input
-        type="number"
-        id="amount"
-        placeholder="e.g. 500"
-      />
+      <input type="number" id="amount" placeholder="e.g. 500" />
     </div>
 
     <div class="btn-area">
-      <button class="btn deposit" onclick="deposit()">Deposit</button>
-      <button class="btn withdraw" onclick="withdraw()">Withdraw</button>
+      <button class="btn deposit" id="depositBtn">Deposit</button>
+      <button class="btn withdraw" id="withdrawBtn">Withdraw</button>
     </div>
 
-    <p id="message" class="message">Invalid amount!</p>
+    <p id="message" class="message"></p>
   </div>
 
   <script src="script.js"></script>
